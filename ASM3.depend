@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635145920 source:c:\users\minh viet\desktop\funix\c programming\asm\asm3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
