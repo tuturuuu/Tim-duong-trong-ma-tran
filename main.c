@@ -34,7 +34,7 @@ void initQueue(Queue *q)
 //Kiem tra hang rong
 int isEmpty(Queue q)
 {
-       return (q.rear < q.front);   //Khi front>rear -> ham rong
+       return (q.rear < q.front);   //Khi front>rear -> hang rong
 }
 //Kiem tra ham day
 int isFull(Queue q)
@@ -48,7 +48,7 @@ int isFull(Queue q)
 //Cho them 1 phan tu vao hang
 void enQueue(Queue *q, point_t x)
 {
-    //Neu ham chua day -> them 1 phan tu vao mang data + tang 1 gia tri cho rear
+    //Neu hang chua day -> them 1 phan tu vao mang data + tang 1 gia tri cho rear
       if (!isFull(*q)) {
 
             q->rear = q->rear + 1;
